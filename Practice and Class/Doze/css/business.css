@@ -1,0 +1,38 @@
+.business {
+	  
+	  max-width: 100%;
+	  background-color: #FDFDFD;
+	  height: 250px;
+	  display: none;
+	
+}
+
+.pic {
+	  
+	 width: 50%;
+	 float: left;
+	 display: block;
+	
+}
+
+.pic img {
+	
+	margin: auto;
+	display: block;
+}
+
+
+.form {
+	width: 50%;
+	float: left;
+	margin: 30px;
+	background-color: white;
+	display: block;
+	
+}
+
+
+
+
+
+

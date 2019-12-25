@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>CGPA Calculator</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	
+	<div class="main"> 
+
+
+     <h1>CALCULATE YOUR CGPA</h1>
+     <br />
+     <h2>How many subject you want to calculate?</h2> <br /> 
+	 <input type="tel" id="subject" placeholder="Type your answer here (input number of subject/coures)" />
+	 <button type="button" onclick="calculationPage()" id="firstButton" >  Proceed  </button>
+	 
+	 <br />
+	 <h1 id="error">    </h1>
+	
+	
+	
+	
+	 
+	 </div>
+	
+	<script>
+	
+	    
+	  function calculationPage()
+	  {
+	  
+	    var s=document.getElementById("subject").value;
+		
+		if (s==3)
+		{
+		 window.open("Calculation/threeSubject.html");
+		} 
+		
+		else if(s==4)
+		{
+		  window.open("Calculation/fourSubject.html");
+		}
+		
+	    else if (s==2)
+		{
+		   window.open("Calculation/twoSubject.html");
+		
+		}
+		
+		else if(s==5)
+		{
+		   window.open("Calculation/fiveSubject.html");
+		}
+		else if(s==6)
+		{
+		   window.open("Calculation/sixSubject.html");
+		}
+		else if(s==7)
+		{
+		   window.open("Calculation/sevenSubject.html");
+		}
+		else if(s==8)
+		{
+		   window.open("Calculation/eightSubject.html");
+		}
+		else
+		{
+		  document.getElementById('error').innerHTML="Too many subject or Invalid input" + "<br />" + "(valid only 2 to 8 subjects)";
+		}
+	}
+	
+	
+	
+	</script>
+	
+	
+	
+	
+	
+</body>
+</html>

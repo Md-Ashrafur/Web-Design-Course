@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	
+	
+	<p id="device"></p>
+	
+	<input id="kinibo" type="tel" />
+	<br />
+	<button onclick="funcitonName()">Result</button>
+	
+	<h1 id="number">number</h1>
+	
+	<h1 id="wh"></h1>
+	
+</body>
+
+<script >
+
+	/*var jmon;
+	document.getElementById('class14').innerHTML='this is a test';
+	document.getElementById('button').onclick=function(){
+		document.getElementById('class14').innerHTML='changed';
+	}*/
+	
+	
+
+	
+	function funcitonName(){
+		//document.getElementById('number').innerHTML=num+5;
+		var num=document.getElementById('kinibo').value;	
+
+		if(num>33){
+			document.getElementById('number').innerHTML='pass';
+		}
+		else{
+			document.getElementById('number').innerHTML='fail';
+		}
+		
+	}
+	
+	var arduino = {
+					name:"Arduino Uno",
+					pin:"Output Input",
+					communication:"WiFi or BT",
+					power:"Give and Take",
+					price: 500,
+					
+				work:function(){
+				
+				return this.name+" is a good device";
+				}
+	};
+	
+	
+	document.getElementById('device').innerHTML= arduino.work()+" "+arduino.power;
+	
+	
+	var i=0;
+	var pr='';
+	while(i<100){
+		
+		//document.getElementById('wh').innerHTML+='class'+i+ '<br />';
+		 pr+= '<br />' +'class'+i+ '<br />';
+		
+	i++;
+	}
+	document.getElementById('wh').innerHTML+=pr;
+
+</script>
+
+</html>

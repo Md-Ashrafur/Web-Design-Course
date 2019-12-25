@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <title>javaScript Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+
+<body>
+  <h1 class="text1">CGPA CALCULATOR</h1>
+  <div>
+    <form class="calculator">
+      <input id="number" class="input1" type="text" placeholder="Enter your Subject Number" autofocus/>
+      <input class="input1" type="text" placeholder="Enter GPA for Each Subjects" />
+      <input class="input1" type="text" placeholder="Enter the Number of Credits" />
+
+      <br />
+
+      <input class="button1" onclick="number.value +='1'" type="button" value="1" />
+      <input class="button1" onclick="number.value +='2'" type="button" value="2" />
+      <input class="button1" onclick="number.value +='3'" type="button" value="3" /> <br />
+
+      <input class="button1" onclick="number.value +='4'" type="button" value="4" />
+      <input class="button1" onclick="number.value +='5'" type="button" value="5" />
+      <input class="button1" onclick="number.value +='6'" type="button" value="6" /> <br />
+
+      <input class="button1" onclick="number.value +='7'" type="button" value="7" />
+      <input class="button1" onclick="number.value +='8'" type="button" value="8" />
+      <input class="button1" onclick="number.value +='9'" type="button" value="9" /> <br />
+
+      <input class="button1" onclick="number.value +='.'" type="button" value="." />
+      <input class="button1" onclick="number.value +='0'" type="button" value="0" />
+      <input id="equal" class="button1" onclick="sum()" type="button" value="=" /> <br />
+      <input class="button2" type="reset" value="Clear All" />
+    </form>
+
+  </div>
+
+  <!--javaScript Code-->
+  <script>
+    var number1 = document.getElementById('number').value;
+
+    function sum() {
+      document.getElementById('number').innerHTML = 'number1';
+    }
+  </script>
+
+
+</body>
+
+</html>

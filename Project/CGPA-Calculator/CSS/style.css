@@ -1,0 +1,96 @@
+body {
+	
+	background-color: #7c7976;
+	
+}
+
+
+.main {
+	
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 40px;
+	background-color: #7195f7;
+	padding: auto;
+	
+	
+
+}
+
+h1 {
+	  
+	text-align: center;
+    font-family: Arial;	
+	color: #eff1f4;
+	background-color: #306ef4;
+	padding: 10px;
+}
+
+input {
+	
+	width: 80%;
+	box-align: center;
+	height: 30px;
+	font-size: 20px;
+	margin: 15px;
+	margin-left: 10%;
+	border-radius: 5px;
+	
+}
+
+#GPA1, #GPA2, #GPA3, #GPA4, #GPA5, #GPA6, #GPA7, #GPA8 {
+	
+	width: 35%;
+	float: left;
+	display: inline-block;
+}
+
+#Credit1, #Credit2, #Credit3, #Credit4, #Credit5, #Credit6, #Credit7, #Credit8 {
+	width: 35%;
+	float: right;
+	display: inline-block;
+	
+}
+
+input:focus {
+	
+	border: 2px dotted blue;
+	background-color: lightyellow;
+}
+
+#reset, button{
+	
+	font-size: 18px;
+	margin-left: 10%;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: white;
+	background-color: #0452d8;
+	padding: 5px;
+	border: 2px solid lightblack;
+	font-weight: 100;
+	transition: transform .28s;
+	
+}
+
+
+.1stButton  {
+	
+	border-width: 30%;
+	border-radius: 20px;
+	padding: 10px;
+	margin-left: 40%;
+}
+
+
+button:hover {
+	
+	border-color: black;
+	transform: scale(1.07);
+}
+
+
+
+
+
+

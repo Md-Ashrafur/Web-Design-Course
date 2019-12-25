@@ -1,0 +1,173 @@
+/*
+	Theme Name:East West University
+	Theme URI:http://www.ewubd.edu
+	Author:Roopokar
+	Author URI:www.roopokar.com
+	Description: East West University is the best Website for the Education & Learning Center - for educational organizations, who sell courses and organize classes locally.
+	Version: 1.3.1
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Tags: classes, courses, education, education center, learning center, tutoring, teaching, study, studying, learning, lessons, instructor, teacher, mentor
+	Text Domain: ewubd.edu
+*/
+
+
+@font-face {
+    font-family: 'quadonregular';
+    src: url('quadon-webfont.eot');
+    src: url('quadon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quadon-webfont.woff2') format('woff2'),
+         url('quadon-webfont.woff') format('woff'),
+         url('quadon-webfont.ttf') format('truetype'),
+         url('quadon-webfont.svg#quadonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quadonlight';
+    src: url('quadon_light-webfont.eot');
+    src: url('quadon_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quadon_light-webfont.woff2') format('woff2'),
+         url('quadon_light-webfont.woff') format('woff'),
+         url('quadon_light-webfont.ttf') format('truetype'),
+         url('quadon_light-webfont.svg#quadonlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@media only screen and (max-width:1366px){
+
+.header_main_menu_wrapper {
+    margin-right:0px;
+}
+.logo-unit {
+    margin-left: 0px !important;
+}
+
+}
+@media only screen and (max-width:959px){
+#searchform-mobile{
+margin-top: 25px;
+}
+.ubermenu-skin-black-white-2.ubermenu-responsive-toggle {
+    margin-top: 20px;
+    margin-bottom: -40px;
+}
+#ubermenu-main-24-primary{
+margin-top: 20px;
+}
+#ubermenu-main-26{
+    margin-top: 20px;
+
+}
+.logo-unit img {
+    width: 100% !important;
+}
+#header.sticky_header .header_default.fixed {
+    background: linear-gradient(to right, rgba(255,255,255,1) 22%, rgba(28,67,112,1) 100%) !important;
+    padding: 28px 0 0px !important;
+}
+}
+.centerme {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: table !important;
+}
+.widget_nav_menu ul li a {
+  
+    font-size: 14px !important;
+    font-family: Volkhov !important;
+ /*background-color: #557294!important;*/
+  
+}
+.student ul li a {
+     font-size: 14px !important;
+    font-family: Volkhov !important;
+ /*   background-color: #557294!important;*/
+    }
+p {
+    margin-bottom: 20px !important;
+}
+.flat-table p {
+    margin-bottom: 0px !important;
+}
+.entry-header {
+    padding: 25px 0 25px !important;
+}
+.ubermenu-skin-black-white-2 .ubermenu-submenu .ubermenu-target:hover,.ubermenu-skin-black-white-2 .ubermenu-submenu .ubermenu-active > .ubermenu-target {
+padding-left: 12px !important;
+}
+
+@media only screen and (max-width: 767px) {
+
+body {
+   padding-bottom:0px !important;
+}
+
+.header_default {
+    background: #ffffff !important;
+}
+
+.logo-unit {
+    margin-bottom: 30px !important;
+}
+
+.navbar-toggle {
+    padding-top: 20px !important;
+}
+
+#ubermenu-nav-main-26 {
+    padding-left: 0 !important;
+}
+
+.ubermenu .ubermenu-content-align-center {
+    text-align: left !important;
+}
+
+.vc_separator h4 {
+    font-size: 3vh !important;
+}
+
+.faras h2, .mypgallery h2 {
+    font-size: 16px !important;
+    line-height: 22px !important;
+    text-align: center !important;
+}
+
+.faras h4 {
+    padding-bottom: 25px !important;
+    text-align: center !important;
+}
+
+#footer {
+    position: relative !important;
+}
+
+#footer_top {
+    padding-top: 50px !important;
+}
+
+.footer_widgets_wrapper aside {
+    width: 100% !important;
+}
+
+#ubermenu-second-29 {
+    margin-top: 21px!important;
+}
+
+#ubermenu-second-29 .ubermenu-item-level-0 {
+    width: 100% !important;
+}
+
+.mtphr-dnt-tick-container {
+    margin-top: 0!important;
+}
+}
+
+.transparent_header_off .header_main_menu_wrapper ul > li > a {
+   
+    font-weight: 300;
+}

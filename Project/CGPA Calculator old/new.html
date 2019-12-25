@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	
+	<style type="text/css"> 
+		.div1{
+			width:600px;
+			height:500px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	
+	
+	<div class="div1"> 
+	
+		
+		<input type="text" id="in" /> <br /> <br />
+		<!-- <input type="text" id="in2"/> -->
+		<input id="buttton1" type="submit" onclick="myFunction()"   value="Click Me"/> <br />
+		
+		<br />
+		<input id="subject1" type="text" placeholder="Gpa of 1st Subject" /> <br />
+		<input id="subject2" type="text" placeholder="Gpa of 2nd Subject" /> <br />
+		<input id="subject3" type="text" placeholder="Gpa of 3rd Subject" /> <br />
+		
+		<br />
+		<input id="credit1" type="text" placeholder="Credit of 1st Credit"/> <br />
+		<input id="credit2" type="text" placeholder="Credit of 2nd Credit"/> <br />
+		<input id="credit3" type="text" placeholder="Credit of 3rd Credit"/> <br />
+		
+		<p id="ow"> </p>
+		<p id="s45"> </p>
+		<p id="re"></p>
+		
+		<p id="sub1"></p>
+		<p id="sub2"></p>
+		<p id="sub3"></p>
+		
+		<p id="credit01"></p>
+		<p id="credit02"></p>
+		<p id="credit03"></p>
+		
+		<p id="sumofCredit"></p>
+		<p id="resofgpa"></p>
+		
+		<p id="CGPA"></p>
+		
+		<script>
+		
+		function myFunction(){
+
+			
+			var num1 = parseFloat(document.getElementById('in').value);
+			//var num2 = parseFloat(document.getElementById('in2').value);
+			//document.getElementById('ow').innerHTML=num1;
+			//document.getElementById('s45').innerHTML=num2;
+			
+			var i=(parseInt);
+			//document.getElementById('re').innerHTML+="<br />"+i;
+			
+		for(i=1;i<=num1;i++){
+			
+			if(num1==2){
+				   var num3 = parseFloat(document.getElementById('subject1').value);
+				    var num4 = parseFloat(document.getElementById('subject2').value);
+				   //var num5 = parseFloat(document.getElementById('subject3').value);
+	   
+				 //document.getElementById('sub1').innerHTML="<br />"+num3;
+				 //document.getElementById('sub2').innerHTML="<br />"+num4;
+				  //document.getElementById('sub3').innerHTML="<br />"+num5;
+				 var cre1 = parseFloat(document.getElementById('credit1').value);
+				 var cre2 = parseFloat(document.getElementById('credit2').value);
+				 //var cre3 = parseFloat(document.getElementById('credit3').value);
+				 //document.getElementById('credit01').innerHTML="<br />"+cre1;
+				
+			    	var addCredit=parseFloat(cre1+cre2);
+				 //document.getElementById('sumofCredit').innerHTML="<br />"+"Summesion of Credits "+addCredit;
+				
+				 var gpaofIndividual=parseFloat(num3*cre1+num4*cre2);
+				 
+				
+				 //document.getElementById('resofgpa').innerHTML="<br />"+"The addition of individual GPA "+gpaofIndividual;
+				
+				 var Cgpa=parseFloat(gpaofIndividual/addCredit);
+				 document.getElementById('CGPA').innerHTML="<br />"+"Your Cgpa is "+Cgpa;
+			     }
+			
+				//document.getElementById('re').innerHTML+="<br />"+i;
+				if(num1==3){
+				var num3 = parseFloat(document.getElementById('subject1').value);
+				var num4 = parseFloat(document.getElementById('subject2').value);
+				var num5 = parseFloat(document.getElementById('subject3').value);
+	
+				//document.getElementById('sub1').innerHTML="<br />"+num3;
+				//document.getElementById('sub2').innerHTML="<br />"+num4;
+				//document.getElementById('sub3').innerHTML="<br />"+num5;
+				var cre1 = parseFloat(document.getElementById('credit1').value);
+				var cre2 = parseFloat(document.getElementById('credit2').value);
+				var cre3 = parseFloat(document.getElementById('credit3').value);
+				//document.getElementById('credit01').innerHTML="<br />"+cre1;
+				
+				
+				//document.getElementById('sumofCredit').innerHTML="<br />"+"Summesion of Credits "+addCredit;
+				
+				var gpaofIndividual=parseFloat(num3*cre1+num4*cre2+num5*cre3);
+				
+				var addCredit=parseFloat(cre1+cre2+cre3);
+				
+				
+				//document.getElementById('resofgpa').innerHTML="<br />"+"The addition of individual GPA "+gpaofIndividual;
+				
+				var Cgpa=parseFloat(gpaofIndividual/addCredit);
+				document.getElementById('CGPA').innerHTML="<br />"+"Your Cgpa is "+Cgpa;
+			}
+		}
+			
+			
+			
+			
+				
+				
+		}
+			
+		
+		</script>
+	</div>
+</body>
+</html>
